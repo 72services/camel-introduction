@@ -41,3 +41,5 @@ nb-configuration.xml
 
 # Plugin directory
 /.quarkus/cli/plugins/
+/src/data/.camel/john_smith_london.xml
+/src/data/.camel/peter_miller_manchester.xml
