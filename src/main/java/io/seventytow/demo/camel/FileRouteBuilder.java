@@ -2,7 +2,7 @@ package io.seventytow.demo.camel;
 
 import org.apache.camel.builder.RouteBuilder;
 
-public class FileRoute extends RouteBuilder {
+public class FileRouteBuilder extends RouteBuilder {
 
     @Override
     public void configure() {
