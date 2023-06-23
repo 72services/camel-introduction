@@ -7,6 +7,7 @@ public class FileRoute extends RouteBuilder {
     @Override
     public void configure() {
         from("file:src/data")
+                .id("file-route")
                 .choice()
                 .when(xpath("/person/city = 'London'"))
                 .log("UK message")
