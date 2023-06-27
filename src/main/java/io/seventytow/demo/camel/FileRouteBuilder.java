@@ -13,10 +13,10 @@ public class FileRouteBuilder extends RouteBuilder {
                 .id("file-route")
                 .choice()
                 .when(xpath("/person/city = 'London'"))
-                .log("UK message")
-                .to(fileUk)
+                    .log("UK message")
+                    .to(fileUk)
                 .otherwise()
-                .log("Other message")
-                .to(fileOthers);
+                    .log("Other message")
+                    .to(fileOthers);
     }
 }
